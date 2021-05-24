@@ -20,5 +20,5 @@
         <!--project name="mvaisakh/gcc-arm64" path="vendor/gcc/eva/host/linux-x86/arm64" remote="github" revision="lld-integration"/-->
     <!--device trees from ninetail-chocolate-->
         <project name="ninetail-chocolate/RevengeOS_device_xiamoi_sdm845-common" path="device/xiaomi/sdm845-common" remote="github" revision="11"/>
-        <project name="ninetail-chocolate/RevengeOS_device_xiamoi_dipper" path="device/xiaomi/dipper" remote="github" revision="11"/>
+        <project name="ninetail-chocolate/RevengeOS_device_xiaomi_dipper" path="device/xiaomi/dipper" remote="github" revision="11"/>
 </manifest>
