@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--from PixelExperience devices-->
+        <!--Xiaomi Vendor blobs-->
+            <remote name="the-muppets"
+          fetch="https://gitlab.com/the-muppets/"
+          revision="lineage-18.1"/>
+        <project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="the-muppets" revision="lineage-18.1"/>
+        <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-18.1"/>
+    <!--SilverCoreKernel-->
+        <!--project name="PainKiller3/kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="eleven"/-->
+        <!--project name="khusika/canting_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="canting-4.9-q"/-->
+    <!--Lineage default Kernel for Xioami SDM845-->
+        <!--project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="lineage-18.1"/-->
+        <!--project name="Pierre2324/NGK_android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" remote="github" revision="r-caf"/-->
+    <!--Sphinx Kenrel-->
+        <project name="milouk/Sphinx-Beryllium" path="kernel/xiaomi/sdm845" remote="github" revision="Sphinx-10"/>
+        <!--project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master"/-->
+    <!--EVA GCC toolchains-->
+        <!--project name="mvaisakh/gcc-arm64" path="vendor/gcc/eva/host/linux-x86/arm64" remote="github" revision="lld-integration"/-->
+</manifest>
