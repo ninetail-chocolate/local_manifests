@@ -1,6 +1,8 @@
 # local_manifests files for albus with Android11
-For ArrowOS S (Android-12)
+<br>
+##For ArrowOS S (Android-12)
 You must be installing with OrangeFox recovery
+# TAB
 Need edits 
 	vendor/xaiomi/sdm845-common/Android.bp
 		delete code
@@ -30,3 +32,4 @@ Need edits
 			define internal-make-kernel-target
 			$(PATH_OVERRIDE) $(KERNEL_MAKE_CMD) $(KERNEL_MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_BUILD_OUT_PREFIX)$(1) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) $(KERNEL_CLANG_TRIPLE) $(KERNEL_CC) $(KERNEL_LD) $(KERNEL_AR) $(KERNEL_NM) $(KERNEL_OBJCOPY) $(KERNEL_OBJDUMP) $(2)
 			endef
+---
