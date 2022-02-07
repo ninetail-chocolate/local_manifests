@@ -14,6 +14,13 @@
         	<!--project name="PixelExperience/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="twelve"/-->
 	<!--Hardware Xioami from ArrowOS-Devices-->
 		<project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="arrow-12.0"/>
+		<remove-project name="platform_device_qcom_sepolicy"/>
+		<remove-project name="platform_device_qcom_sepolicy-legacy-um"/>
+		<remove-project name="platform_device_qcom_sepolicy_vndr"/>
+		<remove-project name="platform_device_qcom_sepolicy-legacy"/>
+		<project name="ArrowOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="arrow-12.0"/>
+		<project name="ArrowOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" revision="arrow-12.0"/>
+		<project name="ArrowOS/android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="github" revision="arrow-12.0"/>
 	<!--From AOSP tree-->
 		<!--because qcom-caf haven't vr problem fixed-->
 		<project  name="platform/hardware/qcom/sm8150/vr" path="hardware/qcom-caf/vr" />
